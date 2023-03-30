@@ -1,5 +1,5 @@
 {
-  "name": "madlibs",
+  "name": "emojigotchi",
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
@@ -11,6 +11,7 @@
   "dependencies": {
     "@react-navigation/native": "^6.1.2",
     "@react-navigation/native-stack": "^6.9.8",
+    "eas": "^0.1.0",
     "expo": "~47.0.12",
     "expo-status-bar": "~1.4.2",
     "react": "18.1.0",

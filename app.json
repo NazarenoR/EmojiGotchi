@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "MadLibs",
-    "slug": "MadLibs",
+    "name": "EmojiGotchi",
+    "slug": "EmojiGotchi",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -18,9 +18,13 @@
       "**/*"
     ],
     "ios": {
+      "bundleIdentifier": "com.rafanazareno.emojigotchi",
+      "buildNumber": "1.0.0",
       "supportsTablet": true
     },
     "android": {
+      "package": "com.rafanazareno.emojiGotchi",
+      "versionCode": 1001,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
@@ -28,6 +32,16 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "fa82bf0f-9e77-417d-8d96-a2d1ed5d9b8b"
+      }
+    }
+  },
+  "extra": {
+    "eas": {
+      "projectId": "fa82bf0f-9e77-417d-8d96-a2d1ed5d9b8b"
     }
   }
 }
